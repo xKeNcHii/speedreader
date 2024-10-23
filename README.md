@@ -25,14 +25,14 @@ A simple and modern speed reading web application that helps users improve their
    git clone https://github.com/yourusername/speed-reader.git
 
 2. Install the dependencies:
-
-npm install
+    
+    ```bash
+    npm install
 
 3. Run the development server:
-
+    ```bash
     npm run dev
-
-    Open your browser and go to http://localhost:3000.
+Open your browser and go to http://localhost:3000.
 
 ## Usage
     1. Type or paste your text into the textarea.
