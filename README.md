@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Speed Reader Web App
 
-## Getting Started
+A simple and modern speed reading web application that helps users improve their reading speed through rapid display of text.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Works seamlessly on various devices and screen sizes.
+- **Text Input**: Users can type or paste any text they want to practice speed reading.
+- **Adjustable Speed**: Set reading speed in words per minute (WPM) using a slider.
+- **Pause/Resume Functionality**: Easily pause and resume reading without losing progress.
+- **User-Friendly Interface**: Modern flat design with a focus on readability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building server-rendered applications.
+- **TypeScript**: A superset of JavaScript that adds static types.
+- **Tailwind CSS**: A utility-first CSS framework for styling.
+- **React Hooks**: Utilizing `useState` and `useEffect` for managing component state and side effects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/yourusername/speed-reader.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install the dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+npm install
 
-## Deploy on Vercel
+3. Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Open your browser and go to http://localhost:3000.
+
+## Usage
+    1. Type or paste your text into the textarea.
+    2. Adjust the reading speed using the WPM slider.
+    3. Click "Start Reading" to begin.
+    4. Use the "Pause" and "Resume" buttons to control your reading session.
+    5. Click "Stop" to end the session and reset the text.
+
+## To-do List
+1. Customizable Font Style and Size
+2. File Upload
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+Inspiration from various speed reading techniques and tools available online.
